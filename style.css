@@ -1,0 +1,95 @@
+*{
+      color: #e9cfcf;
+    }
+      body{
+        background-image:url('pexels-phael-14739606.jpg ')
+         
+      }
+
+    .left{
+     border: 2px solid green; 
+      display: inline-block; 
+      position: absolute;
+      top: 20px;
+      text-align: center;
+      clear:both 
+    }
+    .mid{
+      width: 45%;
+      margin: 20px auto;
+      display: block;
+      border: 2px solid red; 
+      
+      
+    }
+    .right{
+      border: 2px solid yellow;
+      display: inline-block;
+      position:absolute ;
+      right: 25px;
+      top:20px ;
+      width:30%px;
+      
+      
+    }
+    
+    .left img{
+      width:90px;
+    ;
+    }
+    .left div{
+      text-align: center;
+      
+      line-height: 25px;
+      font-size: 20px;
+    }
+    .navbar {
+      display:block;
+text-align:center ;
+      
+    }
+  
+  
+    .navbar li{
+      list-style: none;
+      display: inline-block;
+      
+    }
+    .navbar li a{
+      text-align: center;
+      text-decoration: none;
+     border: 2px solid green;
+      padding: 2px 5px; 
+      font-size:20px ;
+    }
+    .navbar li a:hover{
+      background-color: red;
+    }
+    .navbar li a:active{
+      background-color: yellow;
+    }
+    
+    .btn{
+      color:#7169f4;
+      font-size: 35px;
+    }
+    .btn:hover{
+      color: #9d9d9d;
+      background-color: #b2f7cb();
+    }
+    .from_group{
+      margin: 500px 50px;
+      padding: 10px 0px;
+    /*  border: 2px solid green;*/
+      border-radius: 25px;
+    }
+    .from_group input{
+      font-size: 35px; 
+      background-color: black;
+      border: 2px solid yellow;
+      padding: 5px;
+     
+    }
+    #date{
+      width:65%;
+    } 
